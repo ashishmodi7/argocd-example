@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:stable
+        image: tomcat:9.0.106-jdk8-corretto-al2
         ports:
         - containerPort: 80
